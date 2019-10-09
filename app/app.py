@@ -9,7 +9,7 @@ APP.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 APP.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://%s:%s@%s/%s' % (
     # ARGS.dbuser, ARGS.dbpass, ARGS.dbhost, ARGS.dbname
-    'sgbytes@sgbytes-postgresql', 'Password123', 'sgbytes-postgresql.postgres.database.azure.com','sgbytes-postgresql'
+    'myprojectuser', 'password', 'sgbytes.postgres.database.azure.com','mypgsqldb'
 )
 
 # initialize the database connection
