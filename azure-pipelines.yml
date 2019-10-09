@@ -8,7 +8,7 @@ variables:
   imageName: 'docker-flask' 
   dockerfilePath: Dockerfile
   dockerRegistryServiceConnection: sgbytesAzureConatinerRegistry
-  tag: 1.1
+  tag: latest
 
 steps:
     - task: Docker@2
